@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='coralline-userimages',
     version='0.1',
-    packages=['UserImages', 'UserImages.migrations'],
+    packages=['coralline_userimages', 'coralline_userimages.migrations'],
     url='https://github.com/HighHopesInt/coralline-userimages',
     license='',
     author='Mikhail Sibiryov',

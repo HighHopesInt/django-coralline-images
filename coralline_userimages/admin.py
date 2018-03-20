@@ -1,5 +1,5 @@
 from django.contrib import admin
-from UserImages.models import UserImage
+from coralline_userimages.models import UserImage
 
 
 class UserImageAdmin(admin.ModelAdmin):
