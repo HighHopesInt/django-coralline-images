@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class UserimagesConfig(AppConfig):
-    name = 'UserImages'
+    name = 'coralline_userimages'
