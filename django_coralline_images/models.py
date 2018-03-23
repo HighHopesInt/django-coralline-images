@@ -7,6 +7,7 @@ from django.dispatch import receiver
 class UserImage(models.Model):
     user_id = models.PositiveIntegerField(verbose_name="User ID")
     image_id = models.CharField(max_length=71, verbose_name="Docker image ID")
+    tag = models.CharField(max_length=500, verbose_name="Image tag", default='')
     created = models.DateTimeField(verbose_name="Created")
     size = models.PositiveIntegerField(verbose_name="Size")
 
