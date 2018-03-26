@@ -10,6 +10,7 @@ class UserImage(models.Model):
     tag = models.CharField(max_length=500, verbose_name="Image tag", default='')
     created = models.DateTimeField(verbose_name="Created")
     size = models.PositiveIntegerField(verbose_name="Size")
+    objects = models.Manager()
 
     def __str__(self):
         return self.image_id

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-coralline-images',
-    version='0.3',
+    version='0.4',
     packages=['django_coralline_images', 'django_coralline_images.migrations'],
     url='https://github.com/HighHopesInt/django-coralline-images',
     license='',
