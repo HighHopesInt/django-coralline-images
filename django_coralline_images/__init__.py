@@ -6,5 +6,6 @@ import django
 from django.conf import settings
 
 if not settings.configured:
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_coralline_images.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE",
+                          "django_coralline_images.settings")
     django.setup()
